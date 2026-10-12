@@ -10,3 +10,11 @@ import os
 st.set_page_config(page_title="PDF RAG Chatbot", page_icon="🤖")
 
 st.title("🤖 PDF RAG CHATBOT")
+uploaded_file = st.file_uploader(
+    "upload a pdf",
+    type=["pdf"]
+)
+
+if uploaded_file:
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf
+                                     ")
