@@ -1,7 +1,9 @@
 streamlit>=1.37
+python-dotenv>=1.0.0
 langchain>=0.2.11
 langchain-community>=0.2.10
-langchain-openai>=0.1.19
+langchain-text-splitters>=0.2.0
+langchain-groq>=0.1.6
 faiss-cpu>=1.8.0
 pypdf>=4.3.0
-sentence-transformers
+sentence-transformers>=3.0.0
